@@ -187,3 +187,81 @@
 //  msg += ‘Hello’;
 // }
 // console.log(msg);
+
+//1
+// var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// var new_string="";
+ 
+// for (var i = 0; i < 11; i++) {
+//  new_string += numsArr[i]
+// }
+// console.log(new_string);
+
+
+//2
+// var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// var new_string = "";
+ 
+// for (var i = 0; i< 11; i++) {
+//  new_string += numsArr[i] + ","
+// }
+// console.log(new_string);
+//This method can alos be used
+// var str1 = arr.toString(); 
+// var str2 = String(arr); 
+// console.log(str1);
+// console.log(str2);
+
+
+//3
+// var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// var new_string = "";
+ 
+// for (var i = 10;i>=0;i--){
+//  new_string += numsArr[i] + " "
+// }
+// console.log(new_string);
+
+
+//4
+// var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// for (var i = 0; i <=10; i++) {
+//  if(numsArr[i] %2 == 0 )
+//  {
+//  numsArr[i] = "even"
+//  }
+// }
+// console.log(numsArr);
+
+
+//5
+// var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// for (var i = 0; i <=10; i++) {
+//  if(numsArr[i] %2 != 0 )
+//  {
+//  numsArr[i] ="even" 
+//  }
+// }
+// console.log(numsArr);
+
+//6
+// var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// var sum=0;
+// for (var i = 0; i <=10; i++) {
+ 
+//  sum += numsArr[i];
+// }
+// console.log(sum);
+
+
+//1
+// let f,s,t;
+// var aa = (f,s,t) => {
+// if(f>s &&f>t){
+//  console.log(f)}
+//  else if(s>f && s>t){
+//  console.log(s)}
+//  else{
+//  console.log(t)}
+// }
+// aa(1,2,3);
